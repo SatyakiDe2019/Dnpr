@@ -173,11 +173,11 @@ And, finally, we've introduced these following regular expression function on JS
             print("3. Checking partition-by functionality!")
     
             srcJson_2 = [
-                {"FirstName": "Satyaki", "LastName": "", "Sal": 1000},
-                {"FirstName": "Satyaki", "LastName": "", "Sal": 700},
-                {"FirstName": "Archi", "LastName": "Bose", "Sal": 500},
-                {"FirstName": "Deb", "LastName": "", "Sal": 9500},
-                {"FirstName": "Archi", "LastName": "Bose", "Sal": 4500},
+                {"FirstName": "Satyaki", "LastName": "", "Location":"Sunnyvale", "Sal": 1000},
+                {"FirstName": "Satyaki", "LastName": "", "Location":"Sunnyvale", "Sal": 700},
+                {"FirstName": "Archi", "LastName": "Bose", "Location":"San Ramon", "Sal": 500},
+                {"FirstName": "Deb", "LastName": "", "Location":"Palo Alto", "Sal": 9500},
+                {"FirstName": "Archi", "LastName": "Bose", "Location":"Freemont", "Sal": 4500}
             ]
     
             var5 = dt.datetime.now().strftime("%Y-%m-%d %H-%M-%S")
