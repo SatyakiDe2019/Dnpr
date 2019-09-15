@@ -426,6 +426,12 @@ And, finally, we've introduced these following regular expression function on JS
 ------------------------------------------------------------------------------------------
 
 > Bug Fix: Let me know - if you face any bug. This is first release.
+>
+> Fixed: Partition By Bug!
+>
+> Notification: Distinct will only work simple JSON payload. We're working on to bring the 
+> same feature for complex JSON as well.
+>
 > Dependancy Package: You need to install followig packages in order to run this package -
 >
 >                     pip install pandas
